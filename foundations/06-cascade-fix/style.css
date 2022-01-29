@@ -24,12 +24,14 @@
   font-size: 20px;
 }
 
-div.text.child {
-  color: red;
-  font-size: 14px;
-}
 
 div.text {
   color: green;
   font-size: 28px;
+}
+
+
+div .child {
+  color: red;
+  font-size: 14px;
 }
