@@ -9,6 +9,11 @@ body {
 }
 
 .header {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 8px;
+  /* gap: 16px; */
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -33,7 +38,7 @@ button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
-  color: white;
+  color: #ffffff;
   padding: 8px 24px;
 }
 
@@ -44,5 +49,22 @@ a {
 }
 
 ul {
+  display: flex;
+  margin: 0px;
+  padding: 8px;
+  gap: 8px;
   list-style-type: none;
+}
+
+.right-side{
+  gap: 16px;
+  display: flex;
+  
+  align-items: center;
+}
+
+.left-side{
+  gap: 16px;
+  display: flex;
+  align-items: center;
 }
